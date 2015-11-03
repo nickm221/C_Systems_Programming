@@ -1,9 +1,7 @@
 /* Nicholas Massa
- * Ashley Bromiley
  * Header file to include the my library
- *
- *
  */
+ 
 #ifndef _MY_H_
 #define _MY_H_
 
