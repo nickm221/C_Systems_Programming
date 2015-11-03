@@ -1,6 +1,11 @@
-/* Nicholas Massa
- * sockets.h is the header file for the sockets project.
+/*
+ * sockets.h
  *
+ * Communication between a server and several clients
+ * using sockets
+ *
+ * Author: Jason Ajmo (jajmo@stevens.edu)
+ * Last Modified: 10/30/14 11:47 PM
  */
 
 #ifndef _SOCKETS_H_
@@ -13,22 +18,24 @@
 #include <netinet/in.h>
 #include <string.h>
 #include <signal.h>
+#include <netdb.h>
+
 
 int sockfd;
 
 struct s_gl_env
 {
-	int sockfd;
-	char* username;
-	int pid;
+  int sockfd;
+  char* username;
+  int pid;
 } gl_env;
 
+/* #ifdef SERVER_INC*/
+int main(int, char**);
+void diecli();
 void disconnect();
+int main(int, char**);
+void bye();
+void stop_server();
 
-#ifdef SERVER_INC
- 	void bye();
- 	void stop_server();
-#else
-        #include <netdb.h>
-#endif
 #endif
