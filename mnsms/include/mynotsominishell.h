@@ -1,5 +1,4 @@
 /* Nicholas Massa
- * Ashley Bromiley
  * mynotsominishell header
  * Contains all of the functions necessary to run my not so minishell
  *
