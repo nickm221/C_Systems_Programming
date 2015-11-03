@@ -13,15 +13,15 @@ A repository containing C programming projects that I have completed which relat
 
 ## II.  Projects
 
-*  __my__: A basic library containing functions for basic string/vector manipulation, comparison, and printing.   
+*  __my__: A basic library containing functions for string/vector manipulation, comparison, and printing.   
 *  __list__:  A doubly linked circular list.    
-*  __minitalk__: The server is responsible for reading in messages from the client in the form of signals.  The client sends        messages to the server via signals one message at a time.  
-*  __pipes__: A basic pipes program which sends the user input message from the grandparent to the parent, and then the child       process.  
+*  __minitalk__: A messaging application where a client sends a single message at a time to a listening server.  Messages are       sent from the client to the server via signal calls.  
+*  __pipes__: A basic program which takes a string from as user input and forks to create a child and grandchild process.          The string is then sent via pipes from the grandparent to the parent, and then from the parent to the child.  
 *  __socket__:  A client server chat application that allows for multiple users to connect and chat on a single server using        sockets.  
 *  __gtk__: A graphical user interface for the above socket chat application.  The GUI is implemented using the GTK toolkit.
-*  __myselect__:  A program which allows for a user to select and highlight user input items through a menu interface.  The         menu/selection interface is generated using termcaps.  
-*  __minishell__:  A very basic command line shell that allows for program execution, directory navigation, and file listing.
-*  __mnsms__: "My Not so Mini Shell" A full command line shell supporting all terminal capabilities [still under construction].
+*  __myselect__:  A program which allows for a user to select and highlight user input items through a menu interface.  The         menu/selection interface and highlighting is generated using termcaps.  
+*  __minishell__:  A basic command line shell that allows for program execution, directory navigation, and file listing.
+*  __mnsms__: "My Not so Mini Shell" A full command line shell supporting all terminal capabilities [Incomplete at this             time].
 
 
 ## III.  Build & Execution Instructions
