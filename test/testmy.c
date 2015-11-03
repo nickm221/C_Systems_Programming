@@ -6,7 +6,7 @@
 #include "my.h"
 int main(int argc, char** argv) 
 {
-#if 0
+
   /*Testing for the my_char function. Takes a char and prints it.*/
   my_char('c'); my_char('\n');
   my_char('2');  my_char('\n');
@@ -166,7 +166,7 @@ int main(int argc, char** argv)
 	 my_str("NULL Passed"); my_char('\n');
 
   my_str("All my_revstr tests completed and passed."); my_char('\n');
-#endif
+
 
   my_str("\n\n\n my str2vect tests \n");
 char **vect;
