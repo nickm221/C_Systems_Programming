@@ -26,6 +26,6 @@ A repository containing C programming projects that I have completed which relat
 
 ## III.  Build & Execution Instructions
 
-1.  Navigate to ~/C_Systems_Programming/src/[PROJECTNAME]
-2.  Type make command: <make>
-3.  Run Program using ./executableName [argument1] [argument2]... All programs provide a usage message describing the proper input standard.  In order to view this usage message simply type ./executableName.  For client-server programs, simply open two terminal windows and execute the client in the first, and the server in the second.  
+1.  Navigate to ` ~/C_Systems_Programming/src/[PROJECTNAME] `
+2.  Type make command: ` make `
+3.  Run Program using ` ./executableName [argument1] [argument2]... ` All programs provide a usage message describing the proper input standard.  In order to view this usage message simply type ` ./executableName `.  For client-server programs, simply open two terminal windows and execute the client in the first, and the server in the second.  
