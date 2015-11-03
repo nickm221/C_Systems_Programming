@@ -1,0 +1,11 @@
+*~
+#*#
+*.o
+*.docx
+*.a
+*.txt
+server
+client
+minishell
+myselect
+pipes

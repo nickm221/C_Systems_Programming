@@ -1,6 +1,6 @@
-/* Ashley Bromiley Nicholas Massa
- * main for running the terminal
- * Pre: Takes the number of args and the args
+/* Nicholas Massa
+ * main responsible for running the terminal
+ * Pre: None.  
  * Post: Terminal is ran
  *
  */

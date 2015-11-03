@@ -1,5 +1,5 @@
-#Ashley Bromiley Nicholas MassaOA
-#Makefile for mynotsominishell
+# Nicholas Massa
+# Makefile for mynotsominishell
 
 NAME=mynotsominishell
 SRC=mynotsominishell.c init_caps.c term_get_cap.c process_input.c my_termprint.c init_terminal.c \
