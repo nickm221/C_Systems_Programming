@@ -1,8 +1,6 @@
 /* Nicholas Massa
- * my.h Header file for LibMy v1.0
- * LibMy v1.0 contains a variety of useful functions that we will implement.  
- * These functions will assist in basic printing, calculations, and operations in C.  
- * I pledge my honor that I have abided by the Stevens Honor System.  NMassa
+ * my.h Header file for my library.
+ * The my library contains basic C functions for string/vector/integer manipulation and printing. 
 */
 #ifndef _MY_H_
 #define _MY_H_
@@ -28,46 +26,25 @@ int my_strrindex(char*, char); /* Returns the index of the last of a char */
 
 /* Assignment #2 Additions */
 
-char *my_strdup(char*); 
-/*1  Return pointer to new, duplicate string */
+char *my_strdup(char*); /* Return pointer to new, duplicate string */
+char *my_strcpy(char*,char*); /* Copies entire string from source to dest */
+char *my_strncpy(char*, char*, unsigned int); /* Copies string from start up to index n to destination */
 
-char *my_strcpy(char*,char*);
-/* 2 Copies entire string from source to dest */
+int my_strcmp(char*, char*);  /* String comparison.  negative if s1<s2.  0 if same.  positive if s1>s2. */
+int my_strncmp(char*, char*, unsigned int);  /* String comparison up to n.  negative if s1<s2.  0 if same.  positive if s1>s2. */
 
-char *my_strncpy(char*, char*, unsigned int); 
-/* 3 Copies string from start up to index n to destination */
+char *my_strconcat(char*, char*);  /* Returns a new string containing s1 followed by s2. */
+char *my_strnconcat(char*, char*, unsigned int); /* Returns a new string up to index n containing s1 followed by s2. */
+char *my_strcat(char*, char*);  /* Copies s2 at the end of s1. */
 
-int my_strcmp(char*, char*);
-/* 4 String comparison.  neg if s1<s2.  0 if same.  pos if s1>s2. */
+void *xmalloc(unsigned int);  /* Wrapper to check return type of malloc. */
+void my_panic(char*, unsigned int);  /* Prints char sting and exits with exit status one */
 
-int my_strncmp(char*, char*, unsigned int);
-/* 5 String comparison up to n.  neg if s1<s2.  0 if same.  pos if s1>s2. */
+char *my_strfind(char*, char); /* Find a character and return a ptr to the first occurence of char in str*/
+char *my_strrfind(char*, char); /* Find a character and return a ptr to the last occurence of char in str*/
 
-void *xmalloc(unsigned int);
-/* 6 Wrapper to check return type of malloc. */
-
-char *my_strconcat(char*, char*);
-/* 7 Returns a new string containing s1 followed by s2. */
-
-char *my_strnconcat(char*, char*, unsigned int);
-/* 8 Returns a new string up to index n containing s1 followed by s2. */
-
-char *my_strcat(char*, char*);
-/* 9 Copies s2 at the end of s1. */
-
-void my_panic(char*, unsigned int);
-/* 10 prints char sting and exits with exit status one */
-
-char *my_strfind(char*, char);
-/* 11 find a character and return a ptr to the first occurence of char in str*/
-
-char *my_strrfind(char*, char);
-/* 12 Find a character and return a ptr to the last occurence of char in str*/
-
-char *my_vect2str(char**);
-
-char **my_str2vect(char*);
-
-int my_atoi(char*);
+char *my_vect2str(char**);  /* Converts a vector to a standard string */
+char **my_str2vect(char*);  /* Converts a string to a vector */
+int my_atoi(char*);  /* Converts a string to an integer */
 
 #endif
