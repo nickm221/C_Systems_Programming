@@ -24,8 +24,6 @@ int my_revstr(char*); /* Reverses the length of a string */
 int my_strindex(char*, char); /* Returns the index of the first of a char */
 int my_strrindex(char*, char); /* Returns the index of the last of a char */
 
-/* Assignment #2 Additions */
-
 char *my_strdup(char*); /* Return pointer to new, duplicate string */
 char *my_strcpy(char*,char*); /* Copies entire string from source to dest */
 char *my_strncpy(char*, char*, unsigned int); /* Copies string from start up to index n to destination */
