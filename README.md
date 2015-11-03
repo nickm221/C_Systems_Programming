@@ -13,15 +13,15 @@ A repository containing C programming projects that I have completed which relat
 
 ## II.  Projects
 
-*  my: A basic library containing functions for basic string/vector manipulation, comparison, and printing.   
-*  list:  A doubly linked circular list.    
+*  _my_: A basic library containing functions for basic string/vector manipulation, comparison, and printing.   
+*  _list_:  A doubly linked circular list.    
 *  minitalk: The server is responsible for reading in messages from the client in the form of signals.  The client sends        messages to the server via signals one message at a time.  
-*  pipes: A basic pipes program which sends the user input message from the grandparent to the parent, and then the child       process.  
-*  socket:  A client server chat application that allows for multiple users to connect and chat on a single server using        sockets.  
-*  gtk: A graphical user interface for the above socket chat application.  The GUI is implemented using the GTK toolkit.  
-*  myselect:  A program which allows for a user to select and highlight user input items through a menu interface.  The         menu/selection interface is generated using termcaps.  
-*  minishell:  A very basic command line shell that allows for program execution, directory navigation, and file listing.   
-*  mnsms: "My Not so Mini Shell" A full command line shell supporting all terminal capabilities [still under construction].
+*  _pipes_: A basic pipes program which sends the user input message from the grandparent to the parent, and then the child       process.  
+*  _socket_:  A client server chat application that allows for multiple users to connect and chat on a single server using        sockets.  
+*  _gtk_: A graphical user interface for the above socket chat application.  The GUI is implemented using the GTK toolkit.  
+*  _myselect_:  A program which allows for a user to select and highlight user input items through a menu interface.  The         menu/selection interface is generated using termcaps.  
+*  _minishell_:  A very basic command line shell that allows for program execution, directory navigation, and file listing. 
+*  _mnsms_: "My Not so Mini Shell" A full command line shell supporting all terminal capabilities [still under construction].
 
 
 ## III.  Build & Execution Instructions
